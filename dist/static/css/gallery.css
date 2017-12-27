@@ -3,23 +3,26 @@
   text-align: center;
   overflow-x: hidden;
 }
-.lb-data .lb-caption{
+
+.lb-data .lb-caption {
   font-size: 18px;
-      font-weight: 200;
-      line-height: 1em;
-      float: right;
-      color: black;
-      background: #fff;
-      padding: 4px;
-      width: 98%;
-      position: absolute;
-      text-align: right;
-      bottom: 50px;
-      left: 6px;
+  font-weight: 200;
+  line-height: 1em;
+  float: right;
+  color: black;
+  background: #fff;
+  padding: 4px;
+  width: 98%;
+  position: absolute;
+  text-align: right;
+  bottom: 50px;
+  left: 6px;
 }
-.lb-outerContainer{
+
+.lb-outerContainer {
   min-height: 390px;
 }
+
 .parallax {
   /* The image used */
   background-image: url("../img/2222.jpg");
@@ -80,19 +83,19 @@
 
 .img-boxes {
   margin-top: 26px;
-height: 250px;
-max-height: 250px;
-min-height: 250px;
-overflow: hidden;
+  height: 250px;
+  max-height: 250px;
+  min-height: 250px;
+  overflow: hidden;
 }
 
 .over-box {
   position: relative;
   overflow: hidden;
-height: 250px;
-max-height: 250px;
-min-height: 250px;
-overflow: hidden;
+  height: 250px;
+  max-height: 250px;
+  min-height: 250px;
+  overflow: hidden;
 }
 
 .overlay {
@@ -122,30 +125,48 @@ overflow: hidden;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width:1199px) {
+  .over-box {
+    height: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-width:768px) {
-  .parallax h2{
+  .parallax h2 {
     top: 142px;
   }
-  .parallax{
+  .parallax {
     min-height: 285px;
   }
-  .over-box .overlay{
+  .over-box .overlay {
     opacity: 1;
   }
 }
-@media screen and (max-width:470px){
-  .lb-outerContainer{
+
+@media screen and (max-width:470px) {
+  .lb-outerContainer {
     min-height: 316px;
   }
-  .lb-data .lb-caption{
-        bottom: 50px;
+  .lb-data .lb-caption {
+    bottom: 36px;
+  }
+  .over-box {
+    height: 170px;
+    max-height: 170px;
+    min-height: 170px;
+    overflow: hidden;
   }
 }
+
 @media screen and (max-width:380px) {
-  .lb-outerContainer{
+  .lb-outerContainer {
     min-height: 316px;
   }
-  .lb-data .lb-caption{
-        bottom: 73px;
+  .lb-data .lb-caption {
+    bottom: 73px;
   }
 }

@@ -1,7 +1,7 @@
 .service {
   margin-bottom: 100px;
-    text-align: center;
-    overflow-x: hidden;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 .parallax {
@@ -197,42 +197,43 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
 @media screen and (max-width:768px) {
-  .parallax h2{
+  .parallax h2 {
     top: 142px;
   }
-  .parallax{
+  .parallax {
     min-height: 285px;
   }
-  .service-box2 .vue-tabs{
-        flex-wrap: wrap;
+  .service-box2 .vue-tabs {
+    flex-wrap: wrap;
   }
   .service-box2 .left-vertical-tabs {
     width: 100%;
     order: 1;
-}
-.service-box2 .tab-content {
+  }
+  .service-box2 .tab-content {
     width: 100%;
     order: 1;
-}
-.content-for-tab{
-  padding: 0px;
-}
-.service-box2 .tab {
+  }
+  .content-for-tab {
+    padding: 0px;
+  }
+  .service-box2 .tab {
     background: #ffffff;
     border-top: 1px solid #e5e7e9;
     max-width: 300px;
     margin: auto;
   }
-  .service-box2 .tab:first-child{
+  .service-box2 .tab:first-child {
     border-top: 0px;
   }
-  .service-box2 .tab a{
-        padding: 4px 0px;
+  .service-box2 .tab a {
+    padding: 4px 0px;
   }
-  .left-vertical-tabs ul{
+  .left-vertical-tabs ul {
     max-width: 300px;
     margin: 0px auto 57px auto;
-        border: 1px solid #e5e7e9;
+    border: 1px solid #e5e7e9;
   }
 }
