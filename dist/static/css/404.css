@@ -1,14 +1,16 @@
-.not-f img{
+.not-f img {
   width: 100%;
 }
-.mobile-photo{
+
+.mobile-photo {
   display: none;
 }
+
 @media screen and (max-width:768px) {
-  .mobile-photo{
+  .mobile-photo {
     display: block;
   }
-  .desk-photo{
+  .desk-photo {
     display: none;
   }
 }

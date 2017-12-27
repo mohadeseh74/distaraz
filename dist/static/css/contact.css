@@ -1,29 +1,31 @@
 .contact {
   margin-bottom: 100px;
-    text-align: center;
-    /*overflow-x: hidden;*/
+  text-align: center;
+  /*overflow-x: hidden;*/
 }
-.parallax {
-    /* The image used */
-  background-image: url("../img/2222.jpg");
 
-    /* Set a specific height */
-    min-height: 214px;
-    background-attachment: fixed;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax {
+  /* The image used */
+  background-image: url("../img/2222.jpg");
+  /* Set a specific height */
+  min-height: 214px;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.parallax h2{
+
+.parallax h2 {
   position: absolute;
-color: #fff;
-left: -9999px;
-right: -9999px;
-margin: auto;
-width: 100%;
-top: 95px;
-    overflow: hidden;
+  color: #fff;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  width: 100%;
+  top: 95px;
+  overflow: hidden;
 }
+
 .navbar-header {
   text-align: center;
   width: 100%;
@@ -54,12 +56,14 @@ top: 95px;
   position: relative;
   top: 4px;
 }
-.text-ri{
+
+.text-ri {
   text-align: right;
 }
+
 .partition {
   max-height: 111px;
-      line-height: 46px;
+  line-height: 46px;
   background: #f2f3f8;
 }
 
@@ -77,7 +81,7 @@ top: 95px;
   float: right;
 }
 
- .contact-inf h2 {
+.contact-inf h2 {
   padding-right: 15px;
 }
 
@@ -154,99 +158,111 @@ top: 95px;
   font-weight: 500;
   width: 100%;
 }
-.flex-f{
+
+.flex-f {
   display: flex;
   flex-wrap: wrap;
 }
-.fl-22{
+
+.fl-22 {
   order: 1;
 }
-.fl-11{
+
+.fl-11 {
   order: 2;
 }
 
-input.is-danger, select.is-danger, textarea.is-danger{
-    border: 1px solid red;
+input.is-danger, select.is-danger, textarea.is-danger {
+  border: 1px solid red;
 }
 
-.help{
+.help {
   color: red;
 }
-.displaynotif{
+
+.displaynotif {
   display: none;
 }
-.app-notif{
+
+.app-notif {
   clear: both;
-      color: #fff;
-      background: #20a520;
-      font-size: 18px;
-      margin: 12px 30px 1px;
-      padding: 12px;
-      text-align: center;
+  color: #fff;
+  background: #20a520;
+  font-size: 18px;
+  margin: 12px 30px 1px;
+  padding: 12px;
+  text-align: center;
 }
-.eror-msg{
+
+.eror-msg {
   background: red;
-color: #fff;
-margin: 12px 30px 0px;
-padding: 12px;
-font-size: 17px;
-text-align: center;
+  color: #fff;
+  margin: 12px 30px 0px;
+  padding: 12px;
+  font-size: 17px;
+  text-align: center;
 }
-@media screen and (max-width:992px) {
-  .contact-form{
-    padding: 0px;
-  }
-}
-@media screen and (max-width:768px) {
 
-  .fl-22{
-    order: 1;
-    width: 100%;
-  }
-  .fl-11{
-    order: 2;
-    width: 100%;
-  }
-  .parallax h2{
-    top: 140px;
-  }
-  .parallax{
-    min-height: 285px;
-  }
-  .contact-inf h2, .contact-form h2 {
-    text-align: right;
-    font-size: 17px;
-padding: 12px 15px;
-  }
-
-  .contact-form input {
-    padding: 0px;
-    margin-bottom: 12px;
-  }
-  .content-pad-l, .content-pad-r, .tex-pad {
-    padding: 0px;
-  }
-  .text-inf {
-    margin-top: 0px;
-    margin-bottom: 4px;
-  }
-  .partition p {
-    margin-bottom: 0px;
-  }
-  .partition .tittle {
-    min-width: 119px;
-    /*width: 100%;*/
-  }
+@media screen and (max-width:1224px) {
   .partition {
-    line-height: 50px;
+    max-height: 125px;
   }
-  .contact-inf{
-    padding: 0px;
+  @media screen and (max-width:992px) {
+    .contact-form {
+      padding: 0px;
+    }
   }
-}
-
-@media screen and (max-width:525px) {
-  .partition .tittle {
-    width: 100%;
+  @media screen and (max-width:768px) {
+    .fl-22 {
+      order: 1;
+      width: 100%;
+    }
+    .fl-11 {
+      order: 2;
+      width: 100%;
+    }
+    .parallax h2 {
+      top: 140px;
+    }
+    .parallax {
+      min-height: 285px;
+    }
+    .contact-inf h2, .contact-form h2 {
+      text-align: right;
+      font-size: 17px;
+      padding: 12px 15px;
+    }
+    .contact-form input {
+      padding: 0px;
+      margin-bottom: 12px;
+    }
+    .content-pad-l, .content-pad-r, .tex-pad {
+      padding: 0px;
+    }
+    .text-inf {
+      margin-top: 0px;
+      margin-bottom: 4px;
+    }
+    .partition p {
+      margin-bottom: 0px;
+    }
+    .partition .tittle {
+      min-width: 119px;
+      /*width: 100%;*/
+    }
+    .partition {
+      line-height: 50px;
+    }
+    .contact-inf {
+      padding: 0px;
+    }
   }
-}
+  @media screen and (max-width:525px) {
+    .partition .tittle {
+      width: 100%;
+    }
+    .partition {
+      max-height: 190px;
+      line-height: 39px;
+    }
+  }

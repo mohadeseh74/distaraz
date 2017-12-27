@@ -90,9 +90,11 @@
   top: 4px;
   left: 4px;
 }
-.about-tik{
+
+.about-tik {
   text-align: right;
 }
+
 .box-2-about img {
   width: 100%;
 }
@@ -201,28 +203,27 @@
     z-index: -1;
     height: 391%;
   }
-  .f-about-w{
+  .f-about-w {
     display: flex;
     flex-wrap: wrap;
   }
-  .one-flex-w{
+  .one-flex-w {
     order: 2;
-
   }
-  .about h2{
+  .about h2 {
     margin-top: 110px;
     margin-bottom: 0px;
   }
-  .box-about3{
+  .box-about3 {
     min-height: 264px;
   }
-  .content-abo{
+  .content-abo {
     margin-top: 0px;
   }
 }
 
 @media screen and (max-width:768px) {
-  .about{
+  .about {
     overflow-x: hidden;
   }
   .box-about3::before {
@@ -230,32 +231,34 @@
     left: 303px;
     bottom: -57px;
     height: 316%;
-
   }
   .parallax h2 {
-      top: 27px;
+    top: 27px;
   }
   .parallax {
     min-height: 285px;
   }
-  .content-abo{
+  .content-abo {
     padding: 0px 30px;
   }
-  .box-about3 p{
+  .box-about3 p {
     padding-bottom: 102px;
   }
 }
+
 @media screen and (max-width:440px) {
-.box-about3::before {
-  bottom: -100px;
+  .box-about3::before {
+    bottom: -100px;
+  }
 }
-}
+
 @media screen and (max-width:400px) {
   .what-we-do {
     padding-bottom: 30px;
   }
 }
-@media screen and (max-width:320px){
+
+@media screen and (max-width:320px) {
   .box-about3::before {
     bottom: -136px;
   }
