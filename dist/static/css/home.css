@@ -413,6 +413,9 @@ input.is-danger, select.is-danger, textarea.is-danger {
 }
 
 @media screen and (max-width:992px) {
+  .order-10 {
+    display: none;
+  }
   .tab-content {
     font-size: 14px;
   }
